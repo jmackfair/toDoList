@@ -7,5 +7,7 @@ The objectives of this project is to allow users to:
   2. Add a new list item
   3. Cross off existing list items (but not delete them)
   4. Click on pages with different lists of tasks
+
+
 **Note: Data will not persist between renders & tasks will not permanently delete since there is no database.
 
