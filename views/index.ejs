@@ -1,0 +1,16 @@
+<%- include("./partials/header.ejs") %>
+<body>
+    <h1>To Do List - <%- title %></h1>
+    
+    <div class="items-background">
+        <h3><em> <%= dateInfo.day %>, <%= dateInfo.month %> <%= dateInfo.date %></em></h3>
+        <% for(let i = 0; i < tasksArray.length; i++){ %>
+            <div class="item"><input type="checkbox" id="item_<%= [i] %>"><label for ="item_<%= [i] %>" class="strikethrough"> <%= tasksArray[i]%> </label></div>
+        <% } %>
+        <form action = "/<%= title %>" method="POST">
+            <div class="add-container"><input type = "text" id="newItem" name ="newItem" placeholder="Add task"><button type="submit">+</button></div>
+        </form>
+    </div>
+</body>
+
+<%- include("./partials/footer.ejs") %>
