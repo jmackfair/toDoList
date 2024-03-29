@@ -1,5 +1,5 @@
 # toDoList
-A to-do list application built with Node.js, Express, HTML, CSS, JSS, and EJS. It includes a front-end and Node.js with Express server.
+A to-do list application built with Node.js, Express, HTML, CSS, JS, and EJS. It includes a front-end and Node.js with Express server.
 
 
 The objectives of this project is to allow users to:
